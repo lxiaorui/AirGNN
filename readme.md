@@ -15,7 +15,7 @@ The model works well under both poison setting (attacks happen before training) 
 
 model.py: definitation of the AirGNN model
 
-train_model: training and saving the model
+train_model: training and saving the model (need to tune lambda)
 
 adv_attack: generating adversarial feature attacks
 
