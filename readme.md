@@ -21,6 +21,10 @@ The model works well under both poison setting (attacks happen before training) 
 
 - test_adv: test the performance of saved model on the generated adversarial datasets
 
+Example: 
+```
+ python train.py  --dataset Cora --runs 10 --model AirGNN --dropout 0.8 --lr 0.01 --lambda_amp 0.5
+```
 
 
 ## Reference
