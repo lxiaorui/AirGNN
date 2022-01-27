@@ -23,7 +23,7 @@ The model works well under both poison setting (attacks happen before training) 
 
 Example: 
 ```
- python train.py  --dataset Cora --runs 10 --model AirGNN --dropout 0.8 --lr 0.01 --lambda_amp 0.5
+ python train_model.py  --dataset Cora --runs 10 --model AirGNN --dropout 0.8 --lr 0.01 --lambda_amp 0.5
 ```
 
 
