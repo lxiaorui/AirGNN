@@ -37,7 +37,12 @@ def run(dataset, model, runs, epochs, lr, weight_decay, early_stopping,
         best_val_loss = float('inf')
         test_acc = 0
         val_loss_history = []
-
+        
+        if args.lcc:
+            path = ("./model/lcc/{}_{}_best_model_run_{}.pth".format(args.dataset, args.model, runs_num))
+        else:
+            path = ("./model/full/{}_{}_best_model_run_{}.pth".format(args.dataset, args.model, runs_num))
+        
         for epoch in range(1, epochs + 1):
             out = train(model, optimizer, data)
             eval_info = evaluate(model, data)
