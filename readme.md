@@ -13,13 +13,13 @@ Related materials: [paper](https://openreview.net/pdf?id=hfkER_KJiNw), [appendix
 
 The model works well under both poison setting (attacks happen before training) and evasion setting (attacks happen after training). It also works under multiple attacking methods since the development of AirGNN does not reply on how the features are attacked.
 
-model.py: definitation of the AirGNN model
+- model.py: definitation of the AirGNN model
 
-train_model: training and saving the model (need to tune lambda)
+- train_model: training and saving the model (need to tune lambda)
 
-adv_attack: generating adversarial feature attacks
+- adv_attack: generating adversarial feature attacks
 
-test_adv: test the performance of saved model on the generated adversarial datasets
+- test_adv: test the performance of saved model on the generated adversarial datasets
 
 
 
