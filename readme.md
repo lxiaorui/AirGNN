@@ -2,7 +2,7 @@
 
 This repository includes the official implementation of AirGNN in the paper **"Graph Neural Networks with Adaptive Residual"** [NeurIPS 2021]. 
 
-[Xiaorui Liu](http://cse.msu.edu/~xiaorui/), [Jiayuan Ding](https://scholar.google.com/citations?user=7lwkXGEAAAAJ&hl=en), [Wei Jin](http://cse.msu.edu/~jinwei2/), [Han Xu](https://cse.msu.edu/~xuhan1/), [Yao Ma](http://cse.msu.edu/~mayao4/), [Zitao Liu](http://www.zitaoliu.com/), [Jiliang Tang](http://www.cse.msu.edu/~tangjili/) . [**Graph Neural Networks with Adaptive Residual**](https://openreview.net/pdf?id=hfkER_KJiNw).  
+[Xiaorui Liu](http://cse.msu.edu/~xiaorui/), [Jiayuan Ding](https://scholar.google.com/citations?user=7lwkXGEAAAAJ&hl=en), [Wei Jin](http://cse.msu.edu/~jinwei2/), [Han Xu](https://cse.msu.edu/~xuhan1/), [Yao Ma](http://cse.msu.edu/~mayao4/), [Zitao Liu](http://www.zitaoliu.com/), [Jiliang Tang](http://www.cse.msu.edu/~tangjili/). [**Graph Neural Networks with Adaptive Residual**](https://openreview.net/pdf?id=hfkER_KJiNw).  
 
 Related materials: [paper](https://openreview.net/pdf?id=hfkER_KJiNw), [appendix](https://openreview.net/attachment?id=hfkER_KJiNw&name=supplementary_material), [slide](https://cse.msu.edu/~xiaorui/files/Slide_AirGNN.pdf), [poster](https://cse.msu.edu/~xiaorui/files/Poster_AirGNN.pdf)
 
