@@ -11,7 +11,7 @@ Related materials: [paper](https://openreview.net/pdf?id=hfkER_KJiNw), [appendix
 
 ## Code Description
 
-The model works well under both poison setting (attacks happen before training) and evasion setting (attacks happen after training). It also works under multiple attacking methods since the development of AirGNN does not reply on how the features are attacked.
+The model works well under both poison setting (attacks happen before training) and evasion setting (attacks happen after training). It also works under multiple attacking methods since the development of AirGNN does not rely on how the features are attacked.
 
 - model.py: definitation of the AirGNN model
 
